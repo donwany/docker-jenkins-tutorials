@@ -1,19 +1,19 @@
 pipeline {
   agent any
   stages {
-    stage('Build') {
+    stage('whoami') {
       steps {
         sh 'whoami'
       }
     }
 
-    stage('LOGIN') {
+    stage('date') {
       steps {
-        sh 'echo date'
+        sh 'date'
       }
     }
 
-    stage('Push') {
+    stage('pwd') {
       steps {
         sh 'pwd'
       }
