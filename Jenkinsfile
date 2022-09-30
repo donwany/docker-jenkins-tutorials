@@ -15,13 +15,9 @@ pipeline {
 
     stage('Push') {
       steps {
-        sh 'docker push worldbosskafka/docker-jen-tutorial:1.0.0'
+        sh 'pwd'
       }
     }
 
-  }
-  environment {
-    DOCKER_USERNAME = 'worldbosskafka'
-    DOCKER_PASSWORD = 'Dallas75230@'
   }
 }
