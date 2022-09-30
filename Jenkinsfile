@@ -9,7 +9,7 @@ pipeline {
           }
         }
 
-        stage('') {
+        stage('Clone') {
           steps {
             git(url: 'https://github.com/donwany/docker-jenkins-tutorials', branch: 'main')
           }
