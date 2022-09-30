@@ -9,7 +9,7 @@ pipeline {
 
     stage('LOGIN') {
       steps {
-        sh 'docker login -u $DOCKER_USERNAME -p $DOCKER_PASSWORD'
+        sh 'echo date'
       }
     }
 
